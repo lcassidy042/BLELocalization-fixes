@@ -6,8 +6,8 @@ jquery=jquery
 
 mkdir $jquery
 cd $jquery
-curl -O https://code.jquery.com/jquery-1.11.2.js
-curl -O https://code.jquery.com/jquery-1.11.2.min.js
+curl -O https://code.jquery.com/jquery-1.11.3.js
+curl -O https://code.jquery.com/jquery-1.11.3.min.js
 
 cd ..
 
@@ -18,14 +18,14 @@ unzip -o -q OpenLayers-2.13.1.zip && rm OpenLayers-2.13.1.zip
 curl -L -O https://jqueryui.com/resources/download/jquery-ui-1.11.4.zip
 unzip -o -q jquery-ui-1.11.4.zip && rm jquery-ui-1.11.4.zip
 
-curl -L -O https://github.com/DataTables/DataTables/archive/1.10.6.zip
-unzip -o -q 1.10.6.zip && rm 1.10.6.zip
+curl -L -O https://github.com/DataTables/DataTables/archive/1.10.10.zip
+unzip -o -q 1.10.10.zip && rm 1.10.10.zip
 
 cd $pwd
 mkdir LocationService/WebContent/WEB-INF/lib
 cd LocationService/WebContent/WEB-INF/lib
 
-curl -L -O https://github.com/mongodb/mongo-java-driver/releases/download/r2.12.0/mongo-java-driver-2.12.0.jar
+curl -L -O https://github.com/mongodb/mongo-java-driver/releases/download/r3.4.0/mongo-java-driver-3.4.0.jar
 
 cd $pwd
 cd location-service-library/lib
